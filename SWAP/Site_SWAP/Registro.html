@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Registro/Login</title>
+	<meta charset="utf-8"> <!-- Acentuação --> 
+	<style type="text/css">
+		.bordas{
+			border-color: #aaaaaa;
+			border-width: 0px;
+			border-style: solid;
+		}
+		.corBorda{
+			border-color: gray;
+			border-width: 2px;
+			border-style: solid; 
+		}
+		.Cores{
+			color: #F2F2F2;
+		}
+		h1{
+			color: #F2F2F2;
+		}
+		th{
+			color: #F2F2F2;
+		}
+		td{
+			color: #F2F2F2;
+		}
+		p{
+			color: #F2F2F2;
+		}
+		.fundo{
+			background-image: url(Imagens/ROXO5.jpeg);
+			background-size: 100% 110%;
+		}
+		.vertical-line{
+      		width: 1px;
+     		background-color: silver;
+    		height: 100%;
+   	   		float: left;
+  		    border: 2px ridge silver ;
+  		    border-radius: 2px;
+    }
+    .arredondamento{
+    	border-radius: 10px;
+    	background-color: purple;
+    }
+    .button {
+		   border-top: 1px solid #f7ad97;
+		   background: #55305c;
+		   background: -webkit-gradient(linear, left top, left bottom, from(#b32bb5), to(#55305c));
+		   background: -webkit-linear-gradient(top, #b32bb5, #55305c);
+		   background: -moz-linear-gradient(top, #b32bb5, #55305c);
+		   background: -ms-linear-gradient(top, #b32bb5, #55305c);
+		   background: -o-linear-gradient(top, #b32bb5, #55305c);
+		   padding: 7.5px 15px;
+		   -webkit-border-radius: 8px;
+		   -moz-border-radius: 8px;
+		   border-radius: 8px;
+		   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+		   box-shadow: rgba(0,0,0,1) 0 1px 0;
+		   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+		   color: #000000;
+		   font-size: 14px;
+		   font-family: Georgia, Serif;
+		   text-decoration: none;
+		   vertical-align: middle;
+		   }
+		.button:hover 
+		{
+		   border-top-color: #28597a;
+		   background: #28597a;
+		   color: #cccccc;
+		   }
+		.button:active 
+		{
+		   border-top-color: #1b435e;
+		   background: #1b435e;
+		   }
+	</style>
+
+</head>
+<body class="fundo">
+	<table class="bordas"  width="100%">
+	
+		<tr>
+			<td><a href="protipoWMH.html"><img src="Imagens/logo2.jpeg" height="90"></a></td>
+
+			<th><a href="protipoWMH.html" class="Cores">Página Inicial</a></th>
+			
+			<th><a href="PublicaçõesWMH.html" class="Cores">Publicações</a></th>
+			
+			<th><a href="clinicaPsiquiatricaWMH.html" class="Cores">Clinicas Psiquiatricas</a></th>
+
+			<td align="center"><form>
+				<input type="text"><button>Pesquisar</button>
+			</form></td>
+			
+			<th><a href="Registro.html" class="Cores">Login/Registro</a></th>
+		</tr>
+
+		<tr>
+			<td colspan="6">
+				<hr class="Cores">
+				<h2 align="center">Login/Registro</h2>
+				<div align="center">
+					
+					<table width="75%" cellpadding="10">
+						<tr>
+							<td align="center" valign="top" class="arredondamento">
+								<h3>Login</h3>
+								<form>
+									E-mail:<br>
+									<input type="text" name="email"><br>
+						
+									Senha:<br>
+									<input type="password" name="Senha"><br><br>
+									É Usuário ou Funcionário?<br><br>
+									<select>
+										<option style="color: blue;">Usuário</option>
+										<option style="color: blue;">Funionário</option>
+									</select>
+									<br><br>
+						
+									<button class="button">Entrar</button><br>
+								</form>
+							</td>
+
+							<td height="100%">
+								
+							 <div class="vertical-line" style="height: 440px;">
+							 </div>
+
+							</td>
+
+							<td align="center" class="arredondamento">
+								<h3>Registro</h3>
+								<form>
+									Nome da Clinica:<br>
+									<input type="text" align="right"><br>
+									CPF/CNPJ:<br>
+									<input type="text"><br>
+									Telefone:<br>
+									<input type="text"><br>
+									CEP:<br>
+									<input type="text"><br>
+									Endereço:<br>
+									<input type="text"><br>
+									E-mail:<br>
+									<input type="text"><br>
+									Senha:<br>
+									<input type="password" name="Senha"><br>
+									Confirma Senha:<br>
+									<input type="password" name="Senha">
+									<br><br>
+										É Usuário ou Funcionário?<br><br>
+										<select>
+											<option style="color: blue;">Usuário</option>
+											<option style="color: blue;">Funionário</option>
+										</select>
+										<br><br>
+
+									<button class="button">Confirmar</button>
+								</form>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<hr class="Cores">
+			</td>
+		</tr>	
+		
+		<tr>
+			<td>Contatos</td>
+		</tr>
+
+		<tr>
+			<td>Telefone: (61)4002-8922</td>
+		</tr>
+		
+		<tr>
+			<td>E-mail: webmentalhealth@saude.ucb.br</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
